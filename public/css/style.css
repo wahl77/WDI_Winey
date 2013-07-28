@@ -1,0 +1,56 @@
+body {
+  max-width: 940px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.container {
+  width: 1000;
+  margin: 0 auto;
+}
+
+nav {
+  display: block;
+  font-size: 25px;
+  margin-bottom: 20px;
+  overflow: hidden
+}
+
+nav ul#menu {
+  float: left;
+}
+
+nav ul#icon, nav ul#icon li {
+  float: right;
+  padding: 0 0;
+  color: red;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: Bodoni, Garamond, 'Times New Roman';
+  padding: 20px;
+  color: grey;
+}
+nav ul li a:hover {
+  color: black;
+}
+
+
+#image {
+  width: 940px;
+  height: 580px;
+}
+
+ul#images li img{
+  position: fixed;
+  top 0; 
+  left 0;
+  width: 940px;
+  height: 580px;
+  display: none;
+}
